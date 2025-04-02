@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const API_URL = "http://localhost:5000/tasks"; // Update when hosting
+const API_URL = "https://todo-frontend-snxq.onrender.com"; // Update when hosting
 
 const TodoList = () => {
     const [tasks, setTasks] = useState([]);
